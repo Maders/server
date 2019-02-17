@@ -237,7 +237,7 @@
 					}
 					if(!data.forwardedForHeadersWorking) {
 						messages.push({
-							msg: t('core', 'The reverse proxy header configuration is incorrect, or you are accessing Nextcloud from a trusted proxy. If not, this is a security issue and can allow an attacker to spoof their IP address as visible to the Nextcloud. Further information can be found in the <a target="_blank" rel="noreferrer noopener" href="{docLink}">documentation</a>.', {docLink: data.reverseProxyDocs}),
+							msg: t('core', 'The reverse proxy header configuration is incorrect or you are accessing Nextcloud from a trusted proxy. If not, this is a security issue and can allow an attacker to spoof their IP address as visible to the Nextcloud. Further information can be found in the <a target="_blank" rel="noreferrer noopener" href="{docLink}">documentation</a>.', {docLink: data.reverseProxyDocs}),
 							type: OC.SetupChecks.MESSAGE_TYPE_WARNING
 						});
 					}
